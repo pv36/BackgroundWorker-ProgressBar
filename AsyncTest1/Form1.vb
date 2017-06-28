@@ -22,7 +22,7 @@ Public Class Form1
 
     Private Sub BackgroundWorker1_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
         For i = 0 To 100
-            Thread.Sleep(40)
+            Thread.Sleep(50)
             BackgroundWorker1.ReportProgress(i)
         Next
 
