@@ -27,7 +27,7 @@ Partial Class Form1
         Me.another_procedure_btn = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.prog_lbl = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'sendMail_btn
@@ -67,21 +67,21 @@ Partial Class Form1
         '
         Me.BackgroundWorker1.WorkerReportsProgress = True
         '
-        'Label1
+        'prog_lbl
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(13, 206)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(54, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Progress: "
+        Me.prog_lbl.AutoSize = True
+        Me.prog_lbl.Location = New System.Drawing.Point(13, 206)
+        Me.prog_lbl.Name = "prog_lbl"
+        Me.prog_lbl.Size = New System.Drawing.Size(54, 13)
+        Me.prog_lbl.TabIndex = 4
+        Me.prog_lbl.Text = "Progress: "
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(517, 261)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.prog_lbl)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.another_procedure_btn)
         Me.Controls.Add(Me.output_tb)
@@ -98,5 +98,5 @@ Partial Class Form1
     Friend WithEvents another_procedure_btn As Button
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
-    Friend WithEvents Label1 As Label
+    Friend WithEvents prog_lbl As Label
 End Class
