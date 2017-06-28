@@ -1,5 +1,5 @@
 # BackgroundWorker-ProgressBar
-BackgroundWorker/ ProgressBar simple sample
+
 Simple vb.net example using a BackgroundWorker to execute an Async Task (send mail button)
 The BackgroundWorker reports back to a ProgressBar that is updated accordingly
 Finally a message is appended to a text box saying thath the AsyncTask is finished.
